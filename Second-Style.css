@@ -1,0 +1,110 @@
+body{
+    background-color: burlywood;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+    padding:  50px;
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 ;
+    width: 20px;
+}
+
+.iimage-container {
+    max-width: 100%; /* Limit the image width to fit its container */
+    max-height: auto; /* Limit the image height to fit its container */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.contenta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-container {
+    width: 35%;
+    margin: 10px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+h1 {
+    text-align: justify;
+}
+
+.navbar ul{
+    font-size: x-large;
+    list-style-type: none;
+    background-color: burlywood;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the right */
+}
+.container {
+    display: flex;
+}
+
+aside {
+    flex: 1;
+    margin-right: 20px; /* Add margin to create space between the sidebar and the navigation */
+}
+
+.navbar {
+    flex: 3; /* Adjust flex value as needed */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: brown;
+}
+
+.Word {
+    flex: 1;
+    text-align: justify;
+    font-size: 20px;
+    margin: 50px 50px 50px 140px; /* Adjust the margin values to your preference */
+    width: 1000px;
+}

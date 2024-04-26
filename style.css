@@ -1,0 +1,79 @@
+body{
+    margin: 0px;
+    background-color: burlywood;
+}
+img {
+    display: block;
+    width: 100%; /* Adjust the width of the image */
+    height: 1000px; /* Maintain aspect ratio */
+    margin-bottom: 20px;
+}
+header {
+    background-image: url(102.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    padding: 1px;
+    margin: 0%;
+    text-align:left;
+    font-size: large;
+}
+.navbar ul{
+    font-size: x-large;
+    list-style-type: none;
+    background-color: burlywood;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align items to the right */
+}
+.container {
+    display: flex;
+}
+
+aside {
+    flex: 1;
+    margin-right: 20px; /* Add margin to create space between the sidebar and the navigation */
+}
+
+.navbar {
+    flex: 3; /* Adjust flex value as needed */
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: brown;
+}
+
+h4 {
+    text-align: justify;
+    margin: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+h5 {
+    text-align: center;
+    color: red;
+}
